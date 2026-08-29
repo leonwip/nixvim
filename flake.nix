@@ -21,6 +21,14 @@
     {
       nixvimModule = import ./config.nix;
 
+      homeManagerModules.default = {
+        imports = [ nixvim.homeManagerModules.nixvim ];
+        programs.nixvim = {
+          enable = true;
+          imports = [ self.nixvimModule ];
+        };
+      };
+
       packages = forAllSystems (
         system:
         let
