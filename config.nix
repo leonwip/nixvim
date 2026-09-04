@@ -14,7 +14,6 @@
     ./neotree.nix
     ./noice.nix
     ./sleuth.nix
-    ./smear.nix
     ./telescope.nix
     ./todocomments.nix
     ./treesitter.nix
