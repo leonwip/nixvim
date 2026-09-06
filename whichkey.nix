@@ -65,6 +65,14 @@
           __unkeyed-1 = "<Leader>b";
           icon = "󰓩";
         }
+        {
+          __unkeyed-1 = "<Leader>o";
+          group = "Obsidian";
+          icon = {
+            icon = "";
+            color = "purple";
+          };
+        }
       ];
     };
   };

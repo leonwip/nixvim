@@ -13,6 +13,7 @@
     ./modes.nix
     ./neotree.nix
     ./noice.nix
+    ./obsidian.nix
     ./sleuth.nix
     ./telescope.nix
     ./todocomments.nix
