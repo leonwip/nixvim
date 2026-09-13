@@ -7,16 +7,25 @@
       float.transparent = true;
       dim_inactive.enabled = true;
       integrations = {
-        # TODO: Check if there are more integrations to add
-        gitsigns = true;
+        blink_cmp = true;
+        bufferline = true;
+        dropbar = {
+          enabled = true;
+          color_mode = true;
+        };
+        gitsigns = {
+          enabled = true;
+          transparent = false;
+        };
         neotree = true;
-        cmp = true;
+        noice = true;
         telescope = true;
         lsp_trouble = true;
+        illuminate = {
+          enabled = true;
+          lsp = false;
+        };
         which_key = true;
-        lualine = true;
-        bufferline = true;
-        dropbar = true;
       };
     };
   };
