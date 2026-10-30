@@ -4,8 +4,9 @@
     enable = true;
     settings = {
       flavour = "mocha";
+      transparent_background = true;
       float.transparent = true;
-      dim_inactive.enabled = true;
+      dim_inactive.enabled = false;
       integrations = {
         blink_cmp = true;
         bufferline = true;

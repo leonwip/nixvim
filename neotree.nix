@@ -10,8 +10,11 @@
         "git_status"
       ];
 
+      popup_border_style = "rounded";
+
       source_selector = {
         winbar = true;
+        separator = "";
         sources = [
           {
             display_name = "󰉓";
