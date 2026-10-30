@@ -19,7 +19,6 @@
     ./todocomments.nix
     ./treesitter.nix
     ./trouble.nix
-    ./twilight.nix
     ./undotree.nix
     ./webdevicons.nix
     ./whichkey.nix
